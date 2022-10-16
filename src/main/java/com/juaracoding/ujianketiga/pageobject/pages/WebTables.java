@@ -17,36 +17,41 @@ public class WebTables {
     @FindBy(id = "addNewRecordButton")
     WebElement btnAdd;
 
-    @FindBy(id = "firstName")
-    WebElement  firstName;
+    @FindBy(id = "USERNAMEOREMAILADDRESS")
+    WebElement  USERNAMEOREMAILADDRESS;
 
-    @FindBy(id = "lastName")
-    WebElement  lastName;
+    @FindBy(id = "Password")
+    WebElement Password;
 
-    @FindBy(id = "userEmail")
-    WebElement userEmail;
+    @FindBy(id = "Login")
+    WebElement Login;
 
-    @FindBy(id = "age")
-    WebElement age;
+    @FindBy(id = "USERNAME ")
+    WebElement  USERNAME ;
 
-    @FindBy(id = "salary")
-    WebElement salary;
+    @FindBy(id = "EMAILADDRESS")
+    WebElement EMAILADDRESS;
 
-    @FindBy(id = "department")
-    WebElement department;
+    @FindBy(id = "PASSWORD")
+    WebElement  PASSWORD;
 
-    @FindBy(id = "sUbmit")
-    WebElement submit;
+
+    @FindBy(id = "Register")
+    WebElement Register;
+
 
     //Page Object
-    public void registrationFrom(String firstName, String lastName, String userEmail, String age, String salary, String department){
+    public void registrationFrom(String USERNAMEOREMAILADDRESS, String Password, String USERNAME, String EMAILADDRESS, String PASSWORD){
         btnAdd.click();
-        this.firstName.sendKeys(firstName);
-        this.lastName.sendKeys(lastName);
-        this.userEmail.sendKeys(userEmail);
-        this.age.sendKeys(age);
-        this.salary.sendKeys(salary);
-        this.department.sendKeys(department);
-        submit.click();
+        this.USERNAMEOREMAILADDRESS.sendKeys(USERNAMEOREMAILADDRESS);
+        this.Password.sendKeys(Password);
+        this.USERNAME.sendKeys(USERNAME);
+        this.EMAILADDRESS.sendKeys(EMAILADDRESS);
+        this.PASSWORD.sendKeys(PASSWORD);
+        Login.click();
+        Register.click();
+    }
+
+    public void registrationForm(String s, String s1, String s2, String s3, String s4, String s5) {
     }
 }
