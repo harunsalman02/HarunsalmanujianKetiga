@@ -1,0 +1,29 @@
+# HarunsalmanujianKetiga
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Harunsalman.ujianketiga/src/main/java/com/juaracoding/ujianketiga/pageobject/pages/Registrasi.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Harunsalman.ujianketiga/src/main/java/com/juaracoding/ujianketiga/pageobject/pages/AddToCart.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Harunsalman.ujianketiga/src/main/java/com/juaracoding/ujianketiga/pageobject/pages/Login.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Harunsalman.ujianketiga/src/main/java/com/juaracoding/ujianketiga/pageobject/utils/addToCart.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Harunsalman.ujianketiga/src/main/java/com/juaracoding/ujianketiga/pageobject/utils/login.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Harunsalman.ujianketiga/src/main/java/com/juaracoding/ujianketiga/pageobject/utils/registrasi.java">
+        <classes/>
+    </test>
+</suite>
